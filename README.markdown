@@ -13,3 +13,5 @@ The only difference between the setups is the working directory:
 `/different` works and `/app` does not.
 
 My guess is that the duplicate `app` directories are the problem.
+
+See https://github.com/vitest-dev/vitest/issues/1967
