@@ -1,4 +1,4 @@
-FROM docker.io/library/node:19@sha256:743707dbaca64ff4ec8673a6e0c4d03d048e32b4e8ff3e89ee0d19f772433dcd
+FROM docker.io/library/node:19@sha256:bff0e689cb433913ab411af7a58253d54c7fd8c3134ffeb25287cdf24d9a5972
 WORKDIR /different
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile --verbose
